@@ -1,6 +1,6 @@
 import globalInput from "../../enum/enum";
-import AddToCartPage from "../pages/AddToCartPage";
-import DashboardPage from "../pages/DashboardPage";
+import AddToCartPage from "../pages/AddToCartPage.js";
+import DashboardPage from "../pages/DashboardPage.js";
 
 beforeEach(() => {
   cy.visit("https://www.demoblaze.com/index.html");
